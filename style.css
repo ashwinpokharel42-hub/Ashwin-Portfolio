@@ -1,0 +1,92 @@
+/*This is for the header styling*/
+header{
+    background-color: #007BFF;
+    padding: 15px 20px;
+}
+
+
+/* This is for navigation styling*/
+nav{
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+
+}
+/* Navigation links */
+nav a{
+   color: white;
+   text-decoration: none;
+   padding:10px 20px;
+   border-radius: 5px;
+   font-weight: bold;
+   transition: background-color 0.3s;
+}
+nav a:hover {
+    background-color:#0056b3;
+
+}
+
+.intro {
+    text-align:center;
+    padding: 50px 20px 20px 20px;
+
+
+}
+.intro h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #007BFF;
+
+}
+.intro h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.about-portfolio{
+background-color: #f0f0f0;
+max-width:800px;
+margin: 0 auto 50px auto;
+padding : 30px;
+border-radius: 10px;
+text-align: left;
+}
+.about-portfolio h3{
+    color: #007BFF;
+    margin-bottom:15px;
+}
+.about-portfolio ul{
+    margin: 10px 0 20px 20px;
+}
+
+/* Responsive design: for the mobile friendly*/
+@media (max-width: 600px){
+    nav {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .intro h1{
+        font-size: 28px;
+
+    }
+    .intro h2{
+        font-size: 20px;
+
+    }
+.about-portfolio{
+    padding: 20px;
+}
+/*for the project grid layout*/
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+
+}
+.project-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 6px;
+}
+}
