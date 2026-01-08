@@ -62,7 +62,7 @@ text-align: left;
 .about-portfolio{
     padding: 20px;
 }
-/*for the project grid layout*/
+/*for the project grid layout which is for the project.html*/
 .projects-section {
     text-align: center;
     margin:60px;
@@ -81,3 +81,34 @@ text-align: left;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 
 }
+
+/* This is for the contact.html*/
+form {
+    max-width: 500px;
+    margin: 20px auto;
+}
+label {
+    display: block;
+    margin-top: 10px;
+
+}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+}
+
+/* This is for the contact.html */
+ form {
+    max-width:500px;
+    margin: 20px auto;
+
+ }
+ label {
+    display: block;
+    margin-top:10px;
+
+ }
+ input,textarea {
+    width: 100%;
+    padding: 8px;
+ }
